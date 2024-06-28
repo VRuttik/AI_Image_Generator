@@ -21,7 +21,7 @@ const [image_url, setImage_url] = useState("/");
       headers:{
         "Content-Type": "application/json",
           Authorization:
-        "Bearer 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",
+        "Bearer api-link",
           "User-Agent": "Chrome",
       },
     body:JSON.stringify({
